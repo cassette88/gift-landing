@@ -41,9 +41,10 @@ app.get('/test', function(req, res) {
 
 app.get('/maui', function (req, res){
   //var feedMaui = {};
-  const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
+//  const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
   const URL =  'https://www.google.com/alerts/feeds/13505578085637347686/8683596871779592060';
-  parser.parseURL(CORS_PROXY + URL, function (err, parsed){
+
+  parser.parseURL(URL, function (err, parsed){
       if(err){
         console.log("Unable to parse");
       }  else {
