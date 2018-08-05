@@ -13,7 +13,9 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "heroku-ssl-redirect": "0.0.4"
+    "heroku-ssl-redirect": "0.0.4",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
   },
   "engines": {
     "node": "10.6.0"
