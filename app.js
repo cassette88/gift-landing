@@ -49,7 +49,7 @@ app.get('/maui', function (req, res){
         console.log("Unable to parse");
       }  else {
           //var feedMaui = JSON.stringify({feed: parsed});
-          res.send(parsed);
+          res.json(parsed);
         }
       });
 
