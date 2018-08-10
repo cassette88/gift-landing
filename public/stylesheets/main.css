@@ -5,6 +5,7 @@
     height: 25%;
 }
 
+
 .first-page-two {
   	padding-top: 30%;
     margin-top: 25px;
@@ -59,6 +60,18 @@
   margin-top: 40px;
   visibility: hidden;
 }
+
+.logo{
+  height: 125px;
+  padding-left: 20px;
+
+}
+
+.navbar {
+padding-left: 0;
+background-color: #3A91E9;
+}
+
 h4 {
   padding: 10px;
 }
